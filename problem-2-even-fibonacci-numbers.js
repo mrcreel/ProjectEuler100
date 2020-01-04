@@ -29,7 +29,12 @@ function fiboEvenSum(n) {
     .reduce((acc, even_fib) => {
       return acc + even_fib
     }, 0)
-  // console.log(evenSum)
+
+  /**
+   * Thanks to this article for reminding me how to .reduce() an array
+   * https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
+   */
+
   return evenSum
 }
 

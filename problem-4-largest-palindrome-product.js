@@ -22,7 +22,6 @@ function largestPalindromeProduct(n) {
       }
     }
   }
-  console.log('============')
   console.log(largestPalindrom)
   return largestPalindrom
 }
